@@ -216,7 +216,7 @@ const KelolaUser: React.FC<KelolaUserProps> = ({ onBack }) => {
 
           {users.length === 0 ? (
             <div className="text-center py-12">
-              <Users size={48} className="mx-auto text-gray-400 mb-4" />
+              <User size={48} className="mx-auto text-gray-400 mb-4" />
               <p className="text-gray-500">Belum ada pengguna terdaftar</p>
             </div>
           ) : (
